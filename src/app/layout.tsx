@@ -12,22 +12,23 @@ import SessionWrapper from "./SessionWrapper";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s - MyShop",
-    default: "MyShop",
+    template: "%s - Sparkle",
+    default: "Sparkle - Your Destination for Fashion",
   },
-  description: "This is description shop",
-  keywords: ["shop", "ecommerce", "sell"],
+  description: "Discover the latest trends in fashion at Sparkle. From chic dresses to stylish accessories, find everything you need to elevate your wardrobe.",
+  keywords: ["Sparkle", "clothing", "fashion", "apparel", "style", "trend", "shop", "ecommerce", "sell"],
   openGraph: {
     title: {
-      template: "%s - MyShop",
-      default: "MyShop",
+      template: "%s - Sparkle",
+      default: "Sparkle",
     },
-    description: "This is description shop",
+    description: "Discover the latest trends in fashion at Sparkle. From chic dresses to stylish accessories, find everything you need to elevate your wardrobe.",
     images: [
-      "https://i.pinimg.com/736x/f6/99/5d/f6995d649dcf5c1ddf7c28560f8cad5b.jpg",
+      "https://i.pinimg.com/564x/22/05/06/220506e55b35f626c9bc28f42e3609df.jpg",
     ],
   },
 };
+
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({

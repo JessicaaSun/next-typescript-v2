@@ -139,12 +139,7 @@ const UserTable = () => {
     setFilter(result);
   }, [getUser, search]);
 
-  const paginationComponentOptions = {
-    rowsPerPageText: "ជួរដេកក្នុងមួយទំព័រ",
-    rangeSeparatorText: "នៃ",
-    selectAllRowsItem: true,
-    selectAllRowsItemText: "ទាំងអស់",
-  };
+  
 
   return (
     <div className="w-full">
@@ -186,7 +181,7 @@ const UserTable = () => {
             onChange={(e) => setSearch(e.target.value)}
           ></input>
         }
-        paginationComponentOptions={paginationComponentOptions}
+     
         onSelectedRowsChange={() => console.log("row selected")}
         progressComponent={<LoadingComponent />}
         customStyles={customStyles}
